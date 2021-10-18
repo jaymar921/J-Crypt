@@ -58,3 +58,24 @@ dependencies {
 }
 ```
 ### Using the Encryptor
+```java
+Encryptor encryptor; //create a variable encryptor from Encryptor class
+encryptor = new Encryptor(8); // Generates a random key with 8 characters, it prompts when it generates a key
+encryptor = new Encryptor(8, true); // Generates a random key with 8 characters, it will not prompt when it generates a key
+encryptor = new Encryptor("Anonymous155"); // Provides a key 'Anonymous155', the program promts if it's a good key else it will generate a random
+encryptor = new Encryptor("Anonymous155", true); // Provides a key 'Anonymous155', the program will not prompt if its a good key, it will not generate a random key
+```
+# Encrypt a string
+```java
+String message = "Hello World"; //'Hello World' will be the test message to encrypt
+String encrypted_message = encryptor.getEncryption(message); // the getEncryption(str) returns the encrypted value from the string argument
+System.out.println(encrypted_message); //print the encrypted message
+```
+Encrypted message of `Hello World` will be `58 29 36 36 119 § 73 119 42 36 28 ` using the key `Anonymous155`
+# Decrypt a string
+```java
+String message = "58 29 36 36 119 § 73 119 42 36 28"; //'58 29 36 36 119 § 73 119 42 36 28' will be the test message to decrypt
+String encrypted_message = encryptor.getDecryption(message); //the getDecryption(str) returns the decrypted value from the string argument
+System.out.println(encrypted_message); //print the decrypted message
+```
+Decrypted message of `58 29 36 36 119 § 73 119 42 36 28` will be `Hello World` using the key `Anonymous155`
