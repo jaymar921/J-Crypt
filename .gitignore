@@ -3,7 +3,7 @@
 /target/
 #In .gitignore
 *Documentations*
-*.idea*
-*.java*
-*.png*
+*.idea
+*.java
+*.png
 
