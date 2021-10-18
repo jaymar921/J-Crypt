@@ -39,7 +39,7 @@ There are two options to run the Jar file
 <dependency>
 	 <groupId>com.github.jaymar921</groupId>
 	 <artifactId>J-Crypt</artifactId>
-	 <version>Tag</version>
+	 <version>-b0588e8fff-1</version>
 </dependency>
 ```
 #### Gradle, put this at the end of your repositories
@@ -57,3 +57,4 @@ dependencies {
 	 implementation 'com.github.jaymar921:J-Crypt:Tag'
 }
 ```
+### Using the Encryptor
