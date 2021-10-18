@@ -6,7 +6,7 @@ For best Encryption, I highly recommend to make your own keys that is 15 up char
 
 ![Figure 1-1](Documentation/Options.png "Options")
 ### If you are using windows
-- download [this](https://www.mediafire.com/file/c7q8ei1rrf4uazp/executeJarWindows.ps1/file). Run it with Powershell
+- install git and download [this](https://www.mediafire.com/file/c7q8ei1rrf4uazp/executeJarWindows.ps1/file). Run it with Powershell
 ### Clone
 - `git clone https://github.com/jaymar921/J-Crypt`
 ### go to directory
