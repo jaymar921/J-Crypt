@@ -56,7 +56,7 @@ allprojects {
 #### Gradle, add the dependency
 ```gradle
 dependencies {
-	 implementation 'com.github.jaymar921:J-Crypt:Tag'
+	 implementation 'com.github.jaymar921:J-Crypt:-b0588e8fff-1'
 }
 ```
 ### Using the Encryptor
