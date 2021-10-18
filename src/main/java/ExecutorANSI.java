@@ -36,7 +36,7 @@ public class ExecutorANSI {
                         ANSI_CYAN+"| \\____/      \\____/_/   \\__, / .___/\\__/   |\n" +
                         ANSI_CYAN+"|                       /____/_/            |\n" +
                         ANSI_CYAN+"|___________________________________________|\n" +
-                        ANSI_BLUE+" Github: "+ANSI_WHITE+"https://github.com/jaymar921"+ANSI_CYAN
+                        ANSI_BLUE+" Github: "+ANSI_WHITE+"https://github.com/jaymar921/J-Crypt"+ANSI_CYAN
         );
     }
 

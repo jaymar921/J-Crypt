@@ -27,7 +27,7 @@ public class Executor {
                         "|                       /____/_/            |\n" +
                         "_____________________________________________\n" +
 
-                        " Github: "+"https://github.com/jaymar921"
+                        " Github: "+"https://github.com/jaymar921/J-Crypt"
         );
     }
 
