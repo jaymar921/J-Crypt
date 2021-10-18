@@ -1,6 +1,7 @@
 # Project exclude paths
 /out/
 /target/
+#In .gitignore
 *Documentations*
 *.idea*
 *.java*
