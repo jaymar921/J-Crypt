@@ -23,3 +23,37 @@ There are two options to run the Jar file
 > - Try Decrypt file option, it will require an absolute path for the file to use, the user can use a key dictionary or random keys for decryption process, you can provide a word dictionary that is space separated for matching purpose. You can set the match percentage, 5% to 100%, I recommend at least (80%)
 > ### NOTE:
 > - use the 'Try Decrypt Text/File' option if you think that the encrypted file uses the program generated key.
+### Use this program in your system?
+[![](https://jitpack.io/v/jaymar921/J-Crypt.svg)](https://jitpack.io/#jaymar921/J-Crypt)
+#### Maven Repository
+```maven
+<repositories>
+	<repository>
+		 <id>jitpack.io</id>
+		 <url>https://jitpack.io</url>
+	</repository>
+</repositories>
+  ```
+#### Maven Dependency
+```maven
+<dependency>
+	 <groupId>com.github.jaymar921</groupId>
+	 <artifactId>J-Crypt</artifactId>
+	 <version>Tag</version>
+</dependency>
+```
+#### Gradle, put this at the end of your repositories
+```gradle
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+#### Gradle, add the dependency
+```gradle
+dependencies {
+	 implementation 'com.github.jaymar921:J-Crypt:Tag'
+}
+```
