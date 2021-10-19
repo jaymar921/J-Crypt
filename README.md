@@ -16,7 +16,7 @@ There are two options to run the Jar file
 - run the `executeJar.sh` 
 - run it in console with this command `java -jar JCrypt.jar -cli -ansi`
 
-![Figure 1-1](Documentation/Try_Decrypt_File.png "Decrypt File")
+![Figure 1-2](Documentation/Try_Decrypt_File.png "Decrypt File")
 
 ### Options
 > - Encrypt and Decrypt text option, the String will be typed by the user. The encryption and decription will use the key that was generated/entered upon program start.
