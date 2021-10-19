@@ -1,8 +1,5 @@
 # Compiled class file
 *.class
-# Java Files
-*.java
-
 # Log file
 *.log
 
