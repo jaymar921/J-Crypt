@@ -2,7 +2,7 @@
 > By JayMar921
 ### Encryption/Decryption - University Project
 J-Crypt is a Java Program that encrypt/decrypts a String. You can use your own key for strong encryption, there is also an option for generating a key.
-For best Encryption, I highly recommend to make your own keys that is 15 up characters in length, it should contain Symbols, Upper/Lower case Characters and numbers. example: `Th!$keyI$N0t$ecured`. The more characters you add, the complexity of character obfuscation increases
+For best Encryption, I highly recommend to make your own keys that is 15 up characters in length, it should contain Symbols, Upper/Lower case Characters and numbers. example: `Th!$keyI$N0t$ecured`. The more characters you add, the complexity of character obfuscation increases.
 
 ![Figure 1-1](Documentation/Options.png "Options")
 ### If you are using windows
