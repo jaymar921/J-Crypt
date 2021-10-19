@@ -77,7 +77,7 @@ Encrypted message of `Hello World` will be `58 29 36 36 119 § 73 119 42 36 28 `
 ## Decrypt a string
 ```java
 String message = "58 29 36 36 119 § 73 119 42 36 28"; //'58 29 36 36 119 § 73 119 42 36 28' will be the test message to decrypt
-String encrypted_message = encryptor.getDecryption(message); //the getDecryption(str) returns the decrypted value from the string argument
-System.out.println(encrypted_message); //print the decrypted message
+String decrypted_message = encryptor.getDecryption(message); //the getDecryption(str) returns the decrypted value from the string argument
+System.out.println(decrypted_message); //print the decrypted message
 ```
 Decrypted message of `58 29 36 36 119 § 73 119 42 36 28` will be `Hello World` using the key `Anonymous155`
