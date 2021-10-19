@@ -41,7 +41,7 @@ There are two options to run the Jar file
 <dependency>
 	 <groupId>com.github.jaymar921</groupId>
 	 <artifactId>J-Crypt</artifactId>
-	 <version>-b0588e8fff-1</version>
+	 <version>-41f854c657-1</version>
 </dependency>
 ```
 #### Gradle, put this at the end of your repositories
@@ -56,7 +56,7 @@ allprojects {
 #### Gradle, add the dependency
 ```gradle
 dependencies {
-	 implementation 'com.github.jaymar921:J-Crypt:-b0588e8fff-1'
+	 implementation 'com.github.jaymar921:J-Crypt:-41f854c657-1'
 }
 ```
 ## Using the Encryptor
