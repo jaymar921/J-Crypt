@@ -60,6 +60,7 @@ public class Executor {
             encryptor = new Encryptor(input_key, true);
 
         }
+        System.out.println("Your key in Hex: "+HexConvert.toHex(key.toString()));
         int option = -1;
         while (option!=0){
             try {
@@ -309,6 +310,7 @@ public class Executor {
             System.out.println("Failed to load ["+filename+"]");
         }
         System.out.println("_____________________________________________");
+        encryptor=new Encryptor(key,true);
         pressAnyKey();
     }
 
@@ -361,6 +363,7 @@ public class Executor {
         }
 
         System.out.println("Decrypted Text: \n" +  str_en );
+        encryptor=new Encryptor(key,true);
         pressAnyKey();
     }
 

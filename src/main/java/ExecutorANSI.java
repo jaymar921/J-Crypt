@@ -2,6 +2,8 @@
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.UnsupportedEncodingException;
+import java.math.BigInteger;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -70,6 +72,11 @@ public class ExecutorANSI {
             encryptor = new Encryptor(input_key, true);
             key = encryptor.getKey().getKey();
         }
+
+        System.out.println("Your key in Hex: "+HexConvert.toHex(key.toString()));
+
+
+
         int option = -1;
         while (option!=0){
             try {
@@ -320,6 +327,7 @@ public class ExecutorANSI {
             System.out.println(ANSI_RED+"Failed to load ["+ANSI_CYAN+filename+ANSI_RED+"]"+ANSI_CYAN);
         }
         System.out.println(ANSI_CYAN+"_____________________________________________");
+        encryptor=new Encryptor(key,true);
         pressAnyKey();
     }
 
@@ -372,6 +380,7 @@ public class ExecutorANSI {
         }
 
         System.out.println(ANSI_CYAN+"Decrypted Text: \n"+ANSI_WHITE +  str_en +ANSI_CYAN);
+        encryptor=new Encryptor(key,true);
         pressAnyKey();
     }
 
