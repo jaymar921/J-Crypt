@@ -14,7 +14,7 @@ For best Encryption, I highly recommend to make your own keys that is 15 up char
 ### Run the Jar
 There are two options to run the Jar file
 - run the `executeJar.sh` 
-- run it in console with this command `java -jar JCrypt.jar`
+- run it in console with this command `java -jar JCrypt.jar -cli -ansi`
 
 ![Figure 1-1](Documentation/Try_Decrypt_File.png "Decrypt File")
 
