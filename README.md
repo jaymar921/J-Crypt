@@ -81,3 +81,17 @@ String decrypted_message = encryptor.getDecryption(message); //the getDecryption
 System.out.println(decrypted_message); //print the decrypted message
 ```
 Decrypted message of `58 29 36 36 119 § 73 119 42 36 28` will be `Hello World` using the key `Anonymous155`
+## Using HexConvert
+you can use hex values as a key
+```java
+/*
+  Using the hex value as a key, passing true on second parameter to turn off
+  key checking
+*/
+String hex_key = HexConvert.toHex("Anonymous155"); //Convert String to hex values
+encryptor = new Encryptor(hex_key, true);
+/*
+  Convert back the hex value to original String
+*/
+String original_string = HexConvert.fromHex("416e6f6e796d6f7573313535");
+```
